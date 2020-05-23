@@ -2,19 +2,38 @@
   "index": {
     "name": "ios",
     "subtitle": "iOS",
-    "tags": ["language", "mobile"],
+    "tags": ["mobile"],
     "about": "iOS is the world’s most advanced mobile operating system, continually redefining what people can do with a mobile device. Together, the iOS SDK and Xcode IDE make it easy for developers to create revolutionary mobile apps.",
     "site": "https://developer.apple.com/technologies/ios",
     "image": "ios.jpg",
     "description": "Read the best free ebooks about iOS mobile platform.",
     "books": [
       {
+        "title": "Swift Essentials - 2nd Edition",
+        "description": "Swift was considered one of the biggest innovations last year, and certainly with Swift 2 announced at WWDC in 2015, this segment of the developer space will continue to be hot and dominating. This is a fast-paced guide to provide an overview of Swift programming and then walks you through in detail how to write iOS applications. Progress through chapters on custom views, networking, parsing and build a complete application as a Git repository, all by using Swift as the core language",
+        "author": "Dr Alex Blewitt",
+        "pages": 248,
+        "year": 2016,
+        "lang": "EN",
+        "added_at": "20190125",
+        "url": "https://www.packtpub.com/packt/free-ebook/swift-essentials"
+      },
+      {
+        "title": "Mastering iOS Game Development",
+        "description": "iOS is an operating system for Apple manufactured phones and tablets. Mobile gaming is one of the fastest-growing industries, and compatibility with iOS is now becoming the norm for game developers. SpriteKit is part of the native SDK from Apple, and enables developers to make simple entry into game development without unnecessary overhead and a long learning process.",
+        "author": "Miguel DeQuadros",
+        "pages": 228,
+        "year": 2015,
+        "lang": "EN",
+        "added_at": "20180627",
+        "url": "https://www.packtpub.com/packt/free-ebook/mastering-ios-gamedev"
+      },
+      {
         "title": "Swift Essentials - DZone Refcard",
         "description": "Get ahead of the fastest growing programming language. Swift is an open source, type-safe, object-oriented programming language that is used for more than client-side mobile apps. It is designed for developers to have an easier time writing and maintaining accurate code. ",
         "author": "Alex Blewitt",
         "pages": 6,
         "year": 2016,
-        "image": "swift-essentials-dzone-refcard.jpg",
         "lang": "EN",
         "added_at": "20161111",
         "url": "https://dzone.com/refcardz/swift-essentials"
@@ -25,7 +44,6 @@
         "author": "Ryan Hodson",
         "pages": 118,
         "year": 2014,
-        "image": "ios-succinctly.jpg",
         "lang": "EN",
         "added_at": "20150216",
         "url": "https://www.syncfusion.com/resources/techportal/details/ebooks/ios"
@@ -36,7 +54,6 @@
         "author": "Sam Davies",
         "pages": 315,
         "year": 2014,
-        "image": "ios8-day-by-day.jpg",
         "lang": "EN",
         "added_at": "20150214",
         "url": "https://leanpub.com/ios8daybyday?a=2hxrOg_7DAAAx2pWvoaFpT"
@@ -47,7 +64,6 @@
         "author": "Mohammad Hossein Mojtahedi",
         "pages": 19,
         "year": 2014,
-        "image": "swift-cheat-sheet.jpg",
         "lang": "EN",
         "added_at": "20150214",
         "url": "http://mhm5000.gitbooks.io/swift-cheat-sheet"

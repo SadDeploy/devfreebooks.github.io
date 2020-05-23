@@ -2,26 +2,35 @@
   "globals": {
     "title": "DevFreeBooks",
     "slug_title": "devfreebooks",
-    "description": "A collection of free books for developers",
+    "description": "A collection of free books for devs",
     "author": "Caio Ribeiro Pereira",
     "email": "caio.ribeiro.pereira@gmail.com",
+    "twitter": "crp_underground",
     "github_url": "https://github.com/devfreebooks/devfreebooks.github.io",
     "github_repo": "git@github.com:devfreebooks/devfreebooks.github.io.git",
     "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSeXsmlLo3S7lJF82LGTOMoMpA4vg_T38Ez47gQoU6P6KaFwQg/viewform",
     "hackernews_id": "12909967",
+    "header_color": "#333333",
+    "highlight_color": "#ffeaa7",
+    "google_search_console": "57vcywZyI5D313Nwa4fNZJKGhqXTW8wwnl9xfcx58zw",
     "root_url": {
       "development": "http://localhost:3000/",
       "production": "https://devfreebooks.github.io/"
     },
-    "devfreecasts": {
-      "title": "DevFreeCasts",
-      "about": "A huge collection of free screencasts for developers",
-      "url": "https://devfreecasts.github.io?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks"
-    },
     "devnewsletters": {
       "title": "DevNewsletters",
       "about": "A collection of newsletters for developers subscribe",
-      "url": "https://devnewsletters.github.io?utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks"
+      "url": "https://devnewsletters.github.io?utm_source=devfreebooks"
+    },
+    "codebanca": {
+      "title": "Codebanca",
+      "about": "A newsletter app for developers and software engineers",
+      "url": "https://app.codebanca.com?utm_source=devfreebooks"
+    },
+    "watchcoins": {
+      "title": "WatchCoins",
+      "about": "Track bitcoins/altcoins quotations in realtime",
+      "url": "https://watchcoins.net/?utm_source=devfreebooks"
     },
     "utm": "utm_source=devfreebooks&utm_medium=medium&utm_campaign=DevFreeBooks"
   }

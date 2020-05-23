@@ -1,9 +1,10 @@
-const harp = require('./harp.json').globals;
 const RSS = require('rss');
 const moment = require('moment');
 const fs = require('fs-extra');
 const path = require('path');
+const { globals } = require('./harp.json');
 
+const harp = globals;
 const rootUrl = harp.root_url.production;
 const categoryDir = path.join(__dirname, 'public/_categories');
 const imageRootUrl = `${rootUrl}assets/images/`;
@@ -28,8 +29,18 @@ fs.readdirSync(categoryDir).forEach((categoryFile) => {
     const bookLink = `${rootUrl}${categoryName}/#${bookId}`;
     const bookPublishedAt = moment(book.added_at || moment().format('YYYYMMDD'), 'YYYYMMDD');
     books.push({
-      title: `Book: ${book.title}`,
-      description: book.description,
+      title: `${book.paid_book ? 'Sponsored' : 'Free'} book: ${book.title}`,
+      description: `
+        <article>
+          <p>
+            ${book.description}
+            <br />
+            Author: <b>${book.author}</b> | Category: <b>${category.subtitle}</b>
+            <br />
+            Lang: <b>${book.lang}</b> | Pages: <b>${book.pages}</b> | Year: <b>${book.year}</b>
+          </p>
+        </article>
+      `,
       url: bookLink,
       author: harp.author,
       date: bookPublishedAt.format('ll')

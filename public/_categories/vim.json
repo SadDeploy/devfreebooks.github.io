@@ -2,12 +2,22 @@
   "index": {
     "name": "vim",
     "subtitle": "Vim",
-    "tags": ["tool"],
+    "tags": ["tools"],
     "about": "Vim is a highly configurable text editor built to enable efficient text editing. It is an improved version of the vi editor distributed with most UNIX systems.",
     "site": "http://www.vim.org",
     "image": "vim.jpg",
     "description": "Read good ebooks about VIM only here and for free!",
     "books": [
+      {
+        "title": "Vim Reference",
+        "description": "Vim reference guide for beginner to intermediate users",
+        "author": "Sundeep Agarwal",
+        "pages": 39,
+        "year": 2016,
+        "lang": "EN",
+        "url": "https://www.gitbook.com/book/learnbyexample/vim-reference/details",
+        "added_at": "20170315"
+      },
       {
         "title": "Vim para Noobs",
         "url": "https://woliveiras.com.br/vimparanoobs/",
@@ -15,7 +25,7 @@
         "author": "William Oliveira",
         "pages": 38,
         "year": 2016,
-        "lang": "PT-BR",
+        "lang": "BR",
         "added_at": "20161111"
       },
       {
@@ -47,6 +57,16 @@
         "lang": "EN",
         "added_at": "20150812",
         "url": "https://vimebook.com/en"
+      },
+      {
+        "title": "The Vim Tutorial and Reference",
+        "description": "A complete ebook about Vim Tutorial and Vim References.",
+        "author": "Steve Oualline",
+        "pages": 804,
+        "year": 2007,
+        "lang": "EN",
+        "added_at": "20170130",
+        "url": "http://www.oualline.com/vim-book.html"
       }
     ]
   }

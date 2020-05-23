@@ -9,6 +9,76 @@
     "description": "Read the best free ebooks about Python language.",
     "books": [
       {
+        "title": "Raspberry Pi cookbook for Python Programmers",
+        "description": "The Raspberry Pi Cookbook has over 50 tailor-made recipes for programmers to get the most out of Raspberry Pi using Python to unleash its huge potential.",
+        "author": "Tim Cox",
+        "pages": 402,
+        "year": 2014,
+        "lang": "EN",
+        "added_at": "20190125",
+        "url": "https://www.packtpub.com/packt/free-ebook/python-raspberry-pi-cookbook"
+      },
+      {
+        "title": "Mastering Python",
+        "description": "Master the art of writing beautiful and powerful Python by using all of the features that Python 3.5 offers",
+        "author": "Rick van Hattem",
+        "pages": 486,
+        "year": 2016,
+        "lang": "EN",
+        "added_at": "20190125",
+        "url": "https://www.packtpub.com/free-ebook/mastering-python"
+      },
+      {
+        "title": "Mastering Python",
+        "description": "Master the art of writing beautiful and powerful Python by using all of the features that Python 3.5 offers",
+        "author": "Rick van Hattem",
+        "pages": 486,
+        "year": 2016,
+        "lang": "EN",
+        "added_at": "20190125",
+        "url": "https://www.packtpub.com/free-ebook/mastering-python"
+      },
+      {
+        "title": "Python Data Science Handbook",
+        "description": "Essential Tools for Working with Data",
+        "author": "Jake VanderPlas",
+        "pages": 541,
+        "year": 2016,
+        "lang": "EN",
+        "added_at": "20180627",
+        "url": "https://jakevdp.github.io/PythonDataScienceHandbook/"
+      },
+      {
+        "title": "Learning Python",
+        "description": "This book goes deeper than simply showing you how to build a Python app, giving you the fundamentals of Python programming that every developer needs to know to make the most of the language. Packed with tutorials and examples this title features everything from data structures, writing reusable code, testing, paradigms, and how Python can be adapted. This eBook will help transform you from a complete beginner to someone ready to bring the best out of their projects.",
+        "author": "Fabrizio Romano",
+        "pages": 443,
+        "year": 2015,
+        "lang": "EN",
+        "added_at": "20180216",
+        "url": "https://www.packtpub.com/packt/free-ebook/learning-python"
+      },
+      {
+        "title": "Think Python",
+        "description": "Think Python is an introduction to Python programming for beginners. It starts with basic concepts of programming, and is carefully designed to define all terms when they are first used and to develop each new concept in a logical progression. Larger pieces, like recursion and object-oriented programming are divided into a sequence of smaller steps and introduced over the course of several chapters.",
+        "author": "Allen Downey",
+        "pages": 244,
+        "year": 2015,
+        "lang": "EN",
+        "added_at": "20170315",
+        "url": "http://greenteapress.com/wp/think-python-2e"
+      },
+      {
+        "title": "Think DSP",
+        "description": "Think DSP is an introduction to Digital Signal Processing in Python.",
+        "author": "Allen Downey",
+        "pages": 164,
+        "year": 2014,
+        "lang": "EN",
+        "added_at": "20170315",
+        "url": "http://greenteapress.com/wp/think-dsp"
+      },
+      {
         "title": "Web2Py",
         "description": "Web2py is an open source python web development framework.",
         "author": "Massimo Di Pierro",
@@ -25,7 +95,6 @@
         "pages": 479,
         "year": 2015,
         "lang": "EN",
-        "image": "automate-the-boring-stuff-with-python.jpg",
         "added_at": "20161111",
         "url": "https://automatetheboringstuff.com/"
       },
@@ -45,7 +114,6 @@
         "author": "Robert Picard",
         "pages": 14,
         "year": 2014,
-        "image": "explore-flask.jpg",
         "lang": "EN",
         "added_at": "20150225",
         "url": "https://exploreflask.com"
@@ -56,7 +124,6 @@
         "author": "Anand Chitipothu",
         "pages": 36,
         "year": 2014,
-        "image": "python-practice-book.jpg",
         "lang": "EN",
         "added_at": "20150206",
         "url": "http://anandology.com/python-practice-book/index.html"
@@ -67,7 +134,6 @@
         "author": "Zed A. Shaw",
         "pages": 58,
         "year": 2014,
-        "image": "learn-python-the-hard-way.jpg",
         "lang": "EN",
         "added_at": "20150206",
         "url": "http://learnpythonthehardway.org/book/"
@@ -78,7 +144,6 @@
         "author": "Mark Pilgrim",
         "pages": 327,
         "year": 2004,
-        "image": "python-dive-into-python.jpg",
         "lang": "EN",
         "added_at": "20040520",
         "url": "http://www.diveintopython.net/"
@@ -89,10 +154,19 @@
         "author": "Kenneth Reitz",
         "pages": 119,
         "year": 2016,
-        "image": "python-hitchhikers-guide-to-python.jpg",
         "lang": "EN",
         "added_at": "20161106",
         "url": "http://docs.python-guide.org/en/latest/"
+      },
+      {
+        "title": "Python Basics",
+        "description": "Introduction to Python - Syntax, working with Shell commands, Files, Text Processing, and more.",
+        "author": "Sundeep Agarwal",
+        "pages": 119,
+        "year": 2016,
+        "lang": "EN",
+        "added_at": "20170130",
+        "url": "https://github.com/learnbyexample/Python_Basics"
       }
     ]
   }
